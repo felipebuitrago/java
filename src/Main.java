@@ -12,7 +12,18 @@ public class Main {
             // Press Mayús+F9 to start debugging your code. We have set one breakpoint
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
-            System.out.println("Donckey is the best");
+            System.out.println("Donkey is the best");
         }
+        MyClass obj = new MyClass();
+        System.out.println(obj.initialState);
+    }
+}
+
+public class MyClass {
+    
+    public int initialState;
+    
+    public MyClass(){
+        initialState = 333;     
     }
 }
